@@ -1,0 +1,6 @@
+to check for null values
+    train_data.isnull().sum()
+
+
+to drop a collumn
+    train_data.drop('family_size', axis=1, inplace=True)
